@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from wikipedia
+from wikipedia2

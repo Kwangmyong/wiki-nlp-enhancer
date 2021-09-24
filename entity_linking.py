@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from wikipedia2vec.dictionary 
+from wikipedia2vec.dictionary i

@@ -2,4 +2,4 @@
 
 import sys
 from wikipedia2vec.dictionary import Dictionary
-f
+fr

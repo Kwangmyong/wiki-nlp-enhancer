@@ -2,4 +2,4 @@
 
 import sys
 from wikipedia2vec.dictionary import Dictionary
-from wikipedia2vec.me
+from wikipedia2vec.men

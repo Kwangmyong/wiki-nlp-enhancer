@@ -2,4 +2,4 @@
 
 import sys
 from wikipedia2vec.dictionary import Dictionary
-from wikipedia2vec.mention_db import Men
+from wikipedia2vec.mention_db import Ment

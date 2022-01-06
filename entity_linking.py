@@ -3,4 +3,4 @@
 import sys
 from wikipedia2vec.dictionary import Dictionary
 from wikipedia2vec.mention_db import MentionDB
-from wikipedia2vec.utils.tokenizer.mecab_toke
+from wikipedia2vec.utils.tokenizer.mecab_token

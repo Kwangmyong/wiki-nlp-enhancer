@@ -5,4 +5,4 @@ from wikipedia2vec.dictionary import Dictionary
 from wikipedia2vec.mention_db import MentionDB
 from wikipedia2vec.utils.tokenizer.mecab_tokenizer import MeCabTokenizer
 
-dic = Dictionary.l
+dic = Dictionary.loa

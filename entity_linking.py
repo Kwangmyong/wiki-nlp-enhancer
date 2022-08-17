@@ -7,4 +7,4 @@ from wikipedia2vec.utils.tokenizer.mecab_tokenizer import MeCabTokenizer
 
 dic = Dictionary.load(sys.argv[2])
 db = MentionDB.load(sys.argv[3], dic)
-with open(sys.argv[1]) as 
+with open(sys.argv[1]) as f:

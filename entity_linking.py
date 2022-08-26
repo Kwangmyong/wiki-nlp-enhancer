@@ -10,3 +10,4 @@ db = MentionDB.load(sys.argv[3], dic)
 with open(sys.argv[1]) as f:
   text = f.read()
 
+t

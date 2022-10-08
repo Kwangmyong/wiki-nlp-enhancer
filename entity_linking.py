@@ -11,4 +11,4 @@ with open(sys.argv[1]) as f:
   text = f.read()
 
 tokenizer = MeCabTokenizer()
-tokens = tokenizer.tokenize(te
+tokens = tokenizer.tokenize(tex

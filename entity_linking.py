@@ -13,4 +13,4 @@ with open(sys.argv[1]) as f:
 tokenizer = MeCabTokenizer()
 tokens = tokenizer.tokenize(text)
 
-for mention in db.
+for mention in db.d

@@ -14,4 +14,4 @@ tokenizer = MeCabTokenizer()
 tokens = tokenizer.tokenize(text)
 
 for mention in db.detect_mentions(text, tokens):
- 
+  

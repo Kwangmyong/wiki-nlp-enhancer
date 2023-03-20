@@ -1,2 +1,2 @@
 gensim==3.4.0
-python-Levensht
+python-Levenshte

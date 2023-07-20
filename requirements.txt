@@ -1,4 +1,4 @@
 gensim==3.4.0
 python-Levenshtein==0.12.0
 rdflib==4.2.2
-wikipedia2vec==
+wikipedia2vec==0.

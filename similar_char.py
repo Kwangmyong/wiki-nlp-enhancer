@@ -10,3 +10,4 @@ dump_db = DumpDB(sys.argv[1])
 pair_counter = Counter()
 
 for (title1, title2) in dump_db.redirects():
+    ops = Levenshtein.editops(title1.lower(), title2.lower())

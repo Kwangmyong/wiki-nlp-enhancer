@@ -15,3 +15,5 @@ for (title1, title2) in dump_db.redirects():
         (op, p1, p2) = ops[0]
         if op == 'replace':
             pair_counter[frozenset((title1[p1], title2[p2]))] += 1
+
+for (pair, count) in pair_counter.most_common():

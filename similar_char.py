@@ -17,3 +17,4 @@ for (title1, title2) in dump_db.redirects():
             pair_counter[frozenset((title1[p1], title2[p2]))] += 1
 
 for (pair, count) in pair_counter.most_common():
+    print('%s\t%s\t%d' % (*list(pair), count))

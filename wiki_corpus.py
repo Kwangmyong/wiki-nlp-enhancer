@@ -3,3 +3,4 @@
 
 import bz2
 import sys
+from rdflib import Graph

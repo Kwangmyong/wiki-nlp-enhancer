@@ -6,3 +6,4 @@ import sys
 from rdflib import Graph
 
 def read_ttl(f):
+  lines = []

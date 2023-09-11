@@ -11,3 +11,4 @@ def read_ttl(f):
     lines.append(line.decode('utf-8').rstrip())
     if len(lines) == 1000: #1000行をまとめて処理
       for triple in parse_lines(lines):
+        yield triple

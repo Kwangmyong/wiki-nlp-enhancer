@@ -12,3 +12,4 @@ def read_ttl(f):
     if len(lines) == 1000: #1000行をまとめて処理
       for triple in parse_lines(lines):
         yield triple
+      lines = []

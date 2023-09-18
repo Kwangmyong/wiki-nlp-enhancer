@@ -16,3 +16,5 @@ def read_ttl(f):
   if lines:
     for triple in parse_lines(lines):
       yield triple
+
+def parse_lines(lines):

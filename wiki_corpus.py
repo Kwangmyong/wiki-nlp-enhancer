@@ -18,3 +18,4 @@ def read_ttl(f):
       yield triple
 
 def parse_lines(lines):
+  g = Graph()

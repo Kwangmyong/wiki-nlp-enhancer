@@ -19,3 +19,4 @@ def read_ttl(f):
 
 def parse_lines(lines):
   g = Graph()
+  g.parse(data=u'\n'.join(lines), format='n3')

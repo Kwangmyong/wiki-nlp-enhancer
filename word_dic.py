@@ -12,3 +12,4 @@ words = set()
 for mention in db:
   if mention.link_prob >= 0.1:
     if mention.text not in words:
+      words.add(mention.text)
